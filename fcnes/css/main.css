@@ -1,0 +1,44 @@
+body {
+	margin: 0px;
+	background-color: rgba(175,155,112,255);
+	background:url("image/timg20.png")rgba(251,242,223,255) no-repeat center center;
+	background-size:100% 100%;
+	background-attachment:fixed;
+	opacity:1;
+	filter:alpha(opacity=100);
+	width:100%;
+}
+.screen {
+	width: 100%;
+	position:fixed;
+	top:0px;
+	left:0px;
+	right:0px;
+	bottom:0px;
+}
+.screen canvas {
+	border-radius: 10px;
+	width: 70%;
+	height:100%;
+	position:fixed;
+	top:0px;
+    left:15%;
+	bottom:0px;
+}
+
+.nes-roms>select {
+	position:fixed;
+	bottom:0px;
+	left:10000px;
+	width:0px;
+	height:0px;
+	display:none;
+}
+.nes-controls {
+	position:fixed;
+	bottom:0px;
+	right:10000px;
+	width:0px;
+	height:0px;
+	display:none;
+}
